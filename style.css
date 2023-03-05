@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RobotoRegular';
+    font-weight: normal;
+}
+
+nav{
+    padding: 10px 10px 10px 15px ;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+#logo{
+    height: 40px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+  
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+#hero, #footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+#hero{
+    height: 100vh;
+}
+
+#main{
+    margin: 8% 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_info, #main_img{
+    width: 50%;
+    padding: 10px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+
+}
+
+.main_button{
+    width: 160px;
+    height: 40px;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    border: none;
+    color: #E5E7EB;
+}
+
+#main_button:hover{
+    background-color: #254b80;
+}
+
+img{
+    width:100%
+}
+
+
+
+h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#servicios{
+    height: 60vh;
+}
+
+#servicios_container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.servicios_container_target{
+    margin-top: 40px;
+    width: 20%;
+}
+
+.servicios_container_target p{
+    text-align: center;
+}
+.servicios_container_img{
+    width: 100%;
+    height:150px;
+}
+
+
+#mensaje{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mensaje{
+    height: 40vh;
+}
+
+#mensaje_info{
+    width: 80%; 
+}
+
+#mensaje_p{
+    font-weight: lighter;
+}
+
+
+
+#formulario{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario_info{
+    color: #E5E7EB;
+}
+
+#formulario_container{
+    width: 80%;
+    height: 40%;
+    background-color: #3B82F6;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#button{
+   border: 1px solid #E5E7EB;
+
+}
+
+#button:hover{
+    background-color: #E5E7EB;
+    color: #1f2937;
+ }
+
+#footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
